@@ -1,0 +1,16 @@
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  padding: 4px;
+  display: flex;
+ }
+
+.bblock {
+  float: left; 
+  margin-top: 5px;
+  margin-right: 5px;
+  text-align: center; 
+}
+.wrap :last-child {
+  margin-right: 0px;
+}
